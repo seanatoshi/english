@@ -1,0 +1,118 @@
+.button {
+    white-space: nowrap;
+}
+
+button {
+    height: 30px;
+    width: 120px;
+    text-decoration: none;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 1px 1px 1px #e9e9e9;
+    -moz-box-shadow: 1px 1px 1px #e9e9e9;
+    box-shadow: 1px 1px 1px #e9e9e9;
+    background: #119de9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#119de9), to(#4bb8f3));
+    background: -moz-linear-gradient(top, #119de9, #4bb8f3);
+    background: -o-linear-gradient(top, #119de9, #4bb8f3);
+    background: -ms-linear-gradient(top, #119de9, #4bb8f3);
+    background: linear-gradient(top, #119de9, #4bb8f3);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#119de9', endColorstr='#4bb8f3');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#119de9', endColorstr='#4bb8f3')";
+}
+
+button:hover {
+    background-color: #59b1eb;
+}
+
+button:active{  /* クリックした時 */
+    -ms-transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+th {
+    padding: 5px 5px 2px 5px;
+}
+
+td {
+    padding: 5px 5px 2px 5px;
+}
+
+.main-contents {
+    white-space: nowrap;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    color: black;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    margin-bottom: 30px;
+    line-height: 200%;
+}
+
+.noun {
+    background-color: #ffcc99;
+    -ms-background-position-y: 3px;
+}
+
+.noun:hover {
+    border:3px #000 solid;
+}
+
+.verb {
+    background-color: #99FF66;
+    text-decoration: underline;
+}
+
+.verb:hover {
+    border:3px #000 solid;
+}
+
+.adverb {
+    background-color: #FFCCFF;
+}
+
+.adverb:hover {
+    border:3px #000 solid;
+}
+
+.adjective {
+    background-color: #CCFFFF;
+}
+
+.adjective:hover {
+    border:3px #000 solid;
+}
+
+.object {
+    background-color: #CCCCCC;
+}
+
+.object:hover {
+    border:3px #000 solid;
+}
+
+textarea {
+    width: 80%;
+    height: 200px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-family: "Ｐゴシック",sans-serif;
+}
+
+.line{
+    position: absolute;
+    border-top: solid 1.5px #000000;
+    -moz-transform-origin:0% 0%;
+    -webkit-transform-origin:0% 0%;
+    transform-origin:0% 0%;
+    float: left;
+}
+
+

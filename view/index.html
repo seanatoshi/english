@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <title>structural eye</title>
+</head>
+<body>
+<div class="button">
+    <button onclick="inputNoun()" class="bo">名詞</button>
+    <button onclick="inputVerb()">動詞</button>
+    <button onclick="inputAdverb()">副詞</button>
+    <button onclick="inputAdjective()">形容詞</button>
+    <button onclick="inputObject()">目的語</button>
+    <button onclick="back()">戻る</button>
+    <button onclick="store()">一時保存</button>
+    <br>
+    <button onclick="setStart()">開始位置をセット</button>
+    <button onclick="setEnd()">終了位置をセット</button>
+    <button onclick="deleteLines()">線の削除</button>
+</div>
+
+<div class="main-contents">
+    <p>Here's a list of community resources in the Fountain Hills area.</p>
+    <p>In the Fountain Hills downtown area we have a few centers that serve the general public.</p>
+    <p>I hope you will include that information in your upcoming article.</p>
+    <p>I also listed a couple of places in the surrounding area.</p>
+    <p>It's not uncommon for Fountain Hills residents to go to a neighboring town for a special cultural event,as we are a fairly small town.</p>
+    <p>The nearest library is in a neighboring town, but that's only 20 miles away.</p>
+</div>
+
+<div class="translation">
+<textarea value="" placeholder="訳：">
+</textarea>
+</div>
+    <br>
+<table id="line" border="1px">
+    <tr>
+        <th>開始位置</th>
+    </tr>
+    <tr>
+        <td id="start-line">　</td>
+    </tr>
+</table>
+</body>
+<script type="text/javascript" src="../lib/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../lib/mousetrap.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+<script type="text/javascript" src="../js/drawLine.js"></script>
+<script type="text/javascript" src="../js/shortCut.js"></script>
+</html>
